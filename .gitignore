@@ -3,6 +3,7 @@ __pycache__/
 *$py.class
 *.pyth
 *.pth
+*.pkl
 # C extensions
 *.so
 *.mp4
