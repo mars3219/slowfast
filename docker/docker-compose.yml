@@ -24,6 +24,7 @@ services:
       - ${HOME_DIR}/HDD:/HDD
     devices:
       - /dev/snd:/dev/snd
+      - /dev/video0:/dev/video0
     environment:
       - USER=${USER}
       - PULSE_SERVER=unix:/run/user/1000/pulse/native
